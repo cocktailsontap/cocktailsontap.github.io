@@ -2801,11 +2801,11 @@
 
 	#header {
 		padding: 9em 0 9em 0 ;
-		background-color: #4686a0;
+		background-color: white;
 
 		color: rgba(255, 255, 255, 1);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/"), url("images/black.jpg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		background-image: url("images/"), url("images/black.jpg");
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
@@ -2956,7 +2956,7 @@
 			-webkit-transition: opacity 1s ease;
 			-ms-transition: opacity 1s ease;
 			transition: opacity 1s ease;
-			background-image: linear-gradient(45deg, #4fa49a, #4361c2);
+			background-image: linear-gradient(45deg, white, white);
 			content: '';
 			height: 100%;
 			left: 0;
